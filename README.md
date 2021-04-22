@@ -3,7 +3,7 @@ The technologies required to formulate and solve optimisation problems can be tr
 
 Docker is used to install a solver and associated dependencies. Pyomo is used to construct a mathematical program, while Django REST Framework provides users an interface through which they can interact with the model. Model parameters are updated via POST requests made to an API endpoint, with the solution returned as a JSON object. 
 
-Decoupling the model's construction from the method by which parameters are updated makes this setup language agnostic. You can submit model data using whatever programming language you like, so long as the language accomodates POST requests.
+Decoupling the model's construction from the method by which parameters are updated makes this setup language agnostic. You can submit model data using whatever programming language you like, so long as the language can be used to make POST requests.
 
 **Note: this is a minimal working example which is not intended to be used in production.**
 
